@@ -12,7 +12,7 @@ new fullpage("#fullpage", {
     if (destination.index === 1) {
       const chairs = document.querySelectorAll(".chair");
       const description = document.querySelector(".description");
-      tl.fromTo(chairs, 0.7, { x: "100%" }, { x: "-40%" })
+      tl.fromTo(chairs, 0.7, { x: "100%" }, { x: "-20%" })
         .fromTo(
           description,
           0.5,
